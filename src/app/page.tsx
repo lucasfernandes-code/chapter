@@ -1,5 +1,6 @@
 import { Header } from "@/components/header";
 import { Hero } from "@/components/hero";
+import { Hours } from "@/components/hours";
 import { Modalities } from "@/components/modalities";
 import { Plans } from "@/components/plans";
 
@@ -11,6 +12,7 @@ export default function Home() {
         <Hero />
         <Modalities />
         <Plans />
+        <Hours />
       </main>
     </div>
   );
