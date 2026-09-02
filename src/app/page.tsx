@@ -1,5 +1,6 @@
 import { Header } from "@/components/header";
 import { Hero } from "@/components/hero";
+import { Modalities } from "@/components/modalities";
 
 export default function Home() {
   return (
@@ -7,6 +8,7 @@ export default function Home() {
       <Header />
       <main className="flex-1">
         <Hero />
+        <Modalities />
       </main>
     </div>
   );
