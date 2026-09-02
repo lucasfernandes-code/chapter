@@ -1,3 +1,4 @@
+import { Footer } from "@/components/footer";
 import { Header } from "@/components/header";
 import { Hero } from "@/components/hero";
 import { Hours } from "@/components/hours";
@@ -14,6 +15,7 @@ export default function Home() {
         <Plans />
         <Hours />
       </main>
+      <Footer />
     </div>
   );
 }
